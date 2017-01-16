@@ -139,6 +139,7 @@ section('make predictions')
 sub_section('make predictions on validation dataset')
 knn = KNeighborsClassifier()
 knn.fit(X_train, Y_train)
+# model.predict() to predict the new data
 predictions = knn.predict(X_validation)
 print(accuracy_score(Y_validation, predictions))
 print(confusion_matrix(Y_validation, predictions))
