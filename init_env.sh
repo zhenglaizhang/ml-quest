@@ -5,4 +5,4 @@ sudo apt-get install python3-tk
 
 pip3 install --upgrade pip
 
-pip3 install numpy scipy maplotlib pandas scikit-learn
+pip3 install ipython numpy scipy matplotlib pandas scikit-learn --upgrade
